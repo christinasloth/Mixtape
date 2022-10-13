@@ -1,0 +1,65 @@
+body{
+  /* background: #3E633D; */
+  background-color: #3E633D;
+  background-image: url(images/playlist.jpg);
+  color: #FFFFFF;
+}
+
+
+main{
+  display: block;
+  margin: auto;
+  width: 200px
+}
+/*I centered the main tag  */
+
+img.background{
+  filter: blur(200px);
+}
+/* adjust blur */
+
+img{
+  max-width: 100%;
+  height: auto;
+  border-radius: 15px;
+  border:10px solid #133020;
+}
+
+h1{
+  color: #FFC033;
+}
+
+h2{
+  color: #FFC033;
+  display: block;
+  margin: auto;
+}
+
+a{
+  color: #FFC033;
+}
+a:visited{
+  color: #D98625;
+}
+a:hover{
+  color: #D98625;
+}
+
+.center{
+  display:block;
+  margin-right:auto;
+  margin-left:auto;
+  width: 250px;
+}
+
+/* div{ */
+  /* display: block; */
+  /* width:200px; */
+  /* margin:auto;
+} */
+
+title{
+  display: block;
+  width: 500px;
+  margin: auto;
+}
