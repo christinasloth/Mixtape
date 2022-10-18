@@ -9,7 +9,7 @@ body{
 main{
   display: block;
   margin: auto;
-  width: 200px
+  width: 300px
 }
 /*I centered the main tag  */
 
@@ -27,12 +27,31 @@ img{
 
 h1{
   color: #FFC033;
+  font-family: 'Inria Serif';
+  font-style: bold;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  width:350;
 }
 
 h2{
   color: #FFC033;
   display: block;
   margin: auto;
+  font-family: 'Inria Serif';
+  font-style: bold;
+  text-align:center;
+  width:350;
+}
+h3{
+  font-family: 'Inria Serif';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
 }
 
 a{
@@ -49,7 +68,7 @@ a:hover{
   display:block;
   margin-right:auto;
   margin-left:auto;
-  width: 250px;
+  width: 300px;
 }
 
 /* div{ */
@@ -58,8 +77,9 @@ a:hover{
   /* margin:auto;
 } */
 
-title{
+.title{
   display: block;
-  width: 500px;
+  width: 350px;
   margin: auto;
+  text-align:center;
 }
