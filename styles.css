@@ -3,6 +3,10 @@ body{
   background-color: #3E633D;
   background-image: url(playlist.jpg);
   color: #FFFFFF;
+  font-family: 'Inria Serif';
+  font-weight: normal;
+  font-size: 1em;
+  line-height: 29px;
 }
 
 li{
@@ -55,6 +59,9 @@ h3{
   text-align: center;
 }
 
+p{
+
+}
 a{
   color: #FFC033;
   font-family: 'Inria Serif';
