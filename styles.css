@@ -1,11 +1,37 @@
+/* @media only screen and (max-width: 700px){
+  p{
+    width:90%;
+    margin:auto;
+  }
+  img{
+    width:100%;
+  }
+} */
+
+/* @media only screen and (min-width: 700px){
+  /*styles for desktop go here*/
+  /* p{
+    width:45%;
+    display:grid;
+    grid-auto-flow:column;
+    grid-gap:auto;
+  }
+  img{
+    width:50%;
+  }
+} */
+
+/* Styles for small devices */
+
+
 body{
   /* background: #3E633D; */
   background-color: #3E633D;
   background-image: url(playlist.jpg);
   color: #FFFFFF;
-  font-family: 'Inria Serif';
+  font-family: 'Inria Sans', Helvetica, Arial, sans-serif;
   font-weight: normal;
-  font-size: 1em;
+  font-size: 16px;
   line-height: 29px;
 }
 
@@ -16,7 +42,7 @@ li{
 main{
   display: block;
   margin: auto;
-  width: 300px
+  width: 300px;
 }
 /*I centered the main tag  */
 
@@ -34,7 +60,7 @@ img{
 
 h1{
   color: #FFC033;
-  font-family: 'Inria Serif';
+  font-family: 'Inria Serif', serif;
   font-weight: bold;
   font-size: 30px;
   line-height: 29px;
@@ -46,13 +72,13 @@ h2{
   color: #FFC033;
   display: block;
   margin: auto;
-  font-family: 'Inria Serif';
+  font-family: 'Inria Serif', serif;
   font-size: bold;
   text-align:center;
   width:350;
 }
 h3{
-  font-family: 'Inria Serif';
+  font-family: 'Inria Serif', serif;
   font-weight: normal;
   font-size: 20px;
   line-height: 29px;
@@ -64,8 +90,9 @@ p{
 }
 a{
   color: #FFC033;
-  font-family: 'Inria Serif';
+  font-family: 'Inria Serif', serif;
   font-size: normal;
+  text-decoration: none;
 }
 a:visited{
   color: #D98625;
