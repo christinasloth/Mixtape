@@ -22,7 +22,9 @@
 } */
 
 /* Styles for small devices */
-
+html{
+  scroll-behavior: smooth;
+}
 
 body{
   /* background: #3E633D; */
