@@ -1,4 +1,4 @@
- @media only screen and (max-width: 700px){
+/*@media only screen and (max-width: 700px){
   p{
     width:90%;
     margin:auto;
@@ -6,20 +6,20 @@
   img{
     width:100%;
   }
-}
+}*/
 
- @media only screen and (min-width: 700px){
+/*@media only screen and (min-width: 700px){*/
   /*styles for desktop go here*/
-   p{
+  /* p{
     width:100%;
     display:grid;
     grid-auto-flow:column;
     grid-gap:auto;
-  }
-  img{
+  } */
+  /*img{
     width:50%;
   }
-}
+} */
 
 /*div{
   width: 100%;
